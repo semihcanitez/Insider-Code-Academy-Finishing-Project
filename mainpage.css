@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  background-image:url(images5.jpg) ;
+}
+
+h1{
+ font-size: 45px;
+}
+h3 {
+  color:rgb(0, 0, 0) ;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+}
+
+blluebackground.jpg {
+  width: 1920px;;
+  height: 1080px;
+}
+
+/*Baslık icin ok*/
+.arrow {
+  border: solid #ffffff;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 7px;
+}
+/*Baslık icin ok*/
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+/*Baslık icin ok*/
+
+.round1 {
+  border: 0px solid #0149c6;
+  border-radius: 40px;
+  padding: 20px;
+  border-width:0px;
+  height: 170px;
+  inline-size: 260px;
+  background-color: hwb(0 15% 85%);
+}
+
+
+
+
+/****************************** TOP NAVİGATOR BAR*****************************/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0149c6;
+    color: white;
+  }
+/****************************** TOP NAVİGATOR BAR*****************************/
+
+/*******************************FOOTER******************************************/
+footer{
+    position:static;
+    bottom: 100;
+    left: 0;
+    right: 0;
+    background: #000000;
+    height: 325px;
+    width:auto;
+    padding-top: 30px;
+    color: #000000;
+    
+}
+
+
+a {
+    color: rgb(151, 151, 151);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: sans-serif
+     }
+
+  a:hover {
+    color: #0c007a;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size: 15px;
+    opacity:0.6;
+  }
+/****************************************FOOTER**********************************************/
+
+.imageContainer {
+  width:300px; 
+  height: 200px;
+  background-size:122% ;
+  background-position-y: center;
+  border-radius: 40px;
+  inline-size: 330px;
+}
+
